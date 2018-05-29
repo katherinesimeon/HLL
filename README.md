@@ -1,6 +1,6 @@
 # HLL R Package 
 
-Package of useful functions used in the Hearing & Language Lab, Dept. of Communication Sciences & Disorders, Northwestern University: hll.northwestern.edu
+Package of useful functions used in the Hearing & Language Lab, Dept. of Communication Sciences & Disorders, Northwestern University: http://hll.northwestern.edu/
 
 Requires plyr and car packages.
 
