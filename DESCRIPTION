@@ -4,8 +4,8 @@ Title: NU Hearing & Language Lab
 Version: 0.1.41
 Author: KMS
 Maintainer: The package maintainer <ksimeon@u.northwestern.edu>
-Description: Package of useful functions used in the Hearing & Language Lab, Dept. of Communication Sciences & Disorders, Northwestern University
-    Requires plyr and car packages.
+Description: PUBLIC VERSION Package of useful functions used in the Hearing & Language Lab, Dept. of Communication Sciences & Disorders, Northwestern University
+    Requires plyr and car packages. 
 License: Intended for the use of Hearing & Language Personnel Only
 Encoding: UTF-8
 LazyData: true
