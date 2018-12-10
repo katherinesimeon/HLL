@@ -2,7 +2,7 @@
 % Please edit documentation in R/restructure_LWL.R
 \name{restructure_LWL}
 \alias{restructure_LWL}
-\title{Restructure Looking While Listening (LWL) Data}
+\title{Restructure Looking While Listening (LWL) Data for Lexical Semantic (R56)}
 \usage{
 restructure_LWL(dataframe)
 }
@@ -14,11 +14,11 @@ Your areas of interest (target, competitor, distractor) should be columns filled
 The same dataframes with the columns target, competitor, distractor filled based on specific parameters.
 }
 \description{
-Restructure Looking While Listening (LWL) Data
+Restructure Looking While Listening (LWL) Data for Lexical Semantic (R56)
 }
 \examples{
 restructured_dataframe <- restructure_LWL(dataframe_name);
-Be sure to create your area of interest columns that need to be labelled: target, competitor, distractor (case-sensitive). 
+Be sure to create your area of interest columns that need to be labelled: target, competitor, distractor (case-sensitive).
 It should like like this: dataframe_name$target <- 0
-Frankly, the reason this is a function is because the original R script is 200 lines. This is a VERY context specific function. 
+Frankly, the reason this is a function is because the original R script is 200 lines. This is a VERY context specific function.
 }
