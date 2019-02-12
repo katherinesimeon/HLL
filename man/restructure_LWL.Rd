@@ -2,7 +2,7 @@
 % Please edit documentation in R/restructure_LWL.R
 \name{restructure_LWL}
 \alias{restructure_LWL}
-\title{Restructure Looking While Listening (LWL) Data for Lexical Semantic (R56)}
+\title{Restructure Looking While Listening (LWL) Data}
 \usage{
 restructure_LWL(dataframe)
 }
@@ -14,7 +14,7 @@ Your areas of interest (target, competitor, distractor) should be columns filled
 The same dataframes with the columns target, competitor, distractor filled based on specific parameters.
 }
 \description{
-Restructure Looking While Listening (LWL) Data for Lexical Semantic (R56)
+Restructure DataWiz Output for Looking While Listening for Lexical Semantic (R56). iCoder is made to measure looking/fixations across two targets. This allows us to look at fixations across three possible targets.
 }
 \examples{
 restructured_dataframe <- restructure_LWL(dataframe_name);

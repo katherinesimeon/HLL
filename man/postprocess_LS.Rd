@@ -2,8 +2,7 @@
 % Please edit documentation in R/postprocess_LS.R
 \name{postprocess_LS}
 \alias{postprocess_LS}
-\title{Post-process LEXICAL SEMANTIC (R56)
-Post-process behavioral data for Lexical semantic task.}
+\title{Post-process LEXICAL SEMANTIC (R56)}
 \usage{
 postprocess_LS(filename, AV_Condition)
 }
@@ -16,7 +15,6 @@ postprocess_LS(filename, AV_Condition)
 A cleaned dataframe with individual trials for a given participant. AV_Condition will be added based on input parameters.
 }
 \description{
-Post-process LEXICAL SEMANTIC (R56)
 Post-process behavioral data for Lexical semantic task.
 }
 \examples{

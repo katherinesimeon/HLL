@@ -1,4 +1,6 @@
-#' DIM HEAD - Print the output of all of these functions at once
+#' DIM HEAD
+#'
+#' Print the output of all of these functions at once (dim and head in the same function).
 #'
 #' @param df dataframe that you wish to apply this function to. Can also call a vector/matrix with data.frame(df)
 #'

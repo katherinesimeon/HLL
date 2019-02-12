@@ -2,7 +2,7 @@
 % Please edit documentation in R/dimhead.R
 \name{dimhead}
 \alias{dimhead}
-\title{DIM HEAD - Print the output of all of these functions at once}
+\title{DIM HEAD}
 \usage{
 dimhead(df)
 }
@@ -13,7 +13,7 @@ dimhead(df)
 returns the dataframe DIMensions rows then columns & HEAD output first 6 rows
 }
 \description{
-DIM HEAD - Print the output of all of these functions at once
+Print the output of all of these functions at once (dim and head in the same function).
 }
 \examples{
 dimhead(CogLin_Data)

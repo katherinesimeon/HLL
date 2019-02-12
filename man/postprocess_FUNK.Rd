@@ -2,8 +2,7 @@
 % Please edit documentation in R/postprocess_FUNK.R
 \name{postprocess_FUNK}
 \alias{postprocess_FUNK}
-\title{Post-process FUN-knowledgy (KS Dissertation)
-Post-process endpoint accuracy from PsychoPy for Exp. 1.2}
+\title{Post-process fʌn.nɔlɛdʒi (KS Dissertation)}
 \usage{
 postprocess_FUNK(filename)
 }
@@ -14,8 +13,7 @@ postprocess_FUNK(filename)
 A cleaned dataframe with individual trials for a given participant.
 }
 \description{
-Post-process FUN-knowledgy (KS Dissertation)
-Post-process endpoint accuracy from PsychoPy for Exp. 1.2
+Post-process endpoint LWL accuracy from PsychoPy for fʌn.nɔlɛdʒi Exp. 1.2 (KS Dissertation)
 }
 \examples{
 postprocess_FUNK('FK_Pilot2_L1_testrun_2018_Nov_18_1009.csv')

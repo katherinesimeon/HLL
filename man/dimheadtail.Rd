@@ -2,7 +2,7 @@
 % Please edit documentation in R/dimheadtail.R
 \name{dimheadtail}
 \alias{dimheadtail}
-\title{DIM HEAD TAIL - Print the output of all of these functions at once}
+\title{DIM HEAD TAIL}
 \usage{
 dimheadtail(df)
 }
@@ -13,7 +13,7 @@ dimheadtail(df)
 returns the dataframe DIMensions rows then columns; HEAD output first 6 rows; TAIL output last 6 rows
 }
 \description{
-DIM HEAD TAIL - Print the output of all of these functions at once
+Print the output of all of these functions at once. Redundant but useful.
 }
 \examples{
 dimheadtail(CogLin_Data)

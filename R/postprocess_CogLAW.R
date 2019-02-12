@@ -1,5 +1,7 @@
 #' Postprocess CogLAW data - FORCED CHOICE
-#' For CS Thesis
+#'
+#'
+#' Postprocess CogLAW data for CS Thesis (3 argument version)
 #'
 #'
 #' @param filename The Psychopy Output File. Should be a string (with '') with a .csv extension.

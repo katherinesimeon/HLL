@@ -2,8 +2,7 @@
 % Please edit documentation in R/postprocess_CogLAW.R
 \name{postprocess_CogLAW}
 \alias{postprocess_CogLAW}
-\title{Postprocess CogLAW data - FORCED CHOICE
-For CS Thesis}
+\title{Postprocess CogLAW data - FORCED CHOICE}
 \usage{
 postprocess_CogLAW(filename, attribute_type, age_group)
 }
@@ -20,8 +19,7 @@ Created by KS 3/2018 for CS Undergraduate Thesis - CogLAW: Cognitive Learning At
 Rev 4/2018 to include attribute and age group inputs
 }
 \description{
-Postprocess CogLAW data - FORCED CHOICE
-For CS Thesis
+Postprocess CogLAW data for CS Thesis (3 argument version)
 }
 \examples{
 postprocess_CogLAW('CogLAW_002_Order1A.csv',"Familiar","Young")

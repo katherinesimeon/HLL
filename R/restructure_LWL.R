@@ -1,4 +1,8 @@
-#' Restructure Looking While Listening (LWL) Data for Lexical Semantic (R56)
+#' Restructure Looking While Listening (LWL) Data
+#'
+#'
+#' Restructure DataWiz Output for Looking While Listening for Lexical Semantic (R56). iCoder is made to measure looking/fixations across two targets. This allows us to look at fixations across three possible targets.
+#'
 #'
 #' @param dataframe The dataframe (LWL output) that you want to modify. This MUST have the following columns: Subject, Condition (phonological, semantic, control), Trial, Timebin, Fixation (0, 0.5 or 1), target, competitor, distractor.
 #' Your areas of interest (target, competitor, distractor) should be columns filled with 0s. These will populate via this function.

@@ -1,4 +1,6 @@
-#' DIM HEAD TAIL - Print the output of all of these functions at once
+#' DIM HEAD TAIL
+#'
+#' Print the output of all of these functions at once. Redundant but useful.
 #'
 #' @param df dataframe that you wish to apply this function to. Can also call a vector/matrix with data.frame(df)
 #'

@@ -2,10 +2,7 @@
 % Please edit documentation in R/add_manual_var.R
 \name{add_manual_var}
 \alias{add_manual_var}
-\title{Add a (Categorical) Variable Manually
-Takes a given dataframe and adds a column for a categorical variable
-The dataframe must only have entries that would all have the same categorical value (i.e. only one level of the variable can be assigned)
-This (basically useless and arbitrary) function is for adding a label to individual trials (i.e. marking if a list of trials was in quiet or noise)}
+\title{Add a (Categorical) Variable Manually}
 \usage{
 add_manual_var(data, col, value)
 }
@@ -20,7 +17,6 @@ add_manual_var(data, col, value)
 Returns printed dataframe to console window. Assign to variable to add in workspace
 }
 \description{
-Add a (Categorical) Variable Manually
 Takes a given dataframe and adds a column for a categorical variable
 The dataframe must only have entries that would all have the same categorical value (i.e. only one level of the variable can be assigned)
 This (basically useless and arbitrary) function is for adding a label to individual trials (i.e. marking if a list of trials was in quiet or noise)

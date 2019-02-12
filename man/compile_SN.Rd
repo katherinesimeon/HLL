@@ -2,8 +2,7 @@
 % Please edit documentation in R/compile_SN.R
 \name{compile_SN}
 \alias{compile_SN}
-\title{Post-process Semantic Norming Data for KS Dissertation
-Post-process Semantic Norming from PsychoPy for Exp 2}
+\title{Post-process Semantic Norming Data}
 \usage{
 compile_SN(filename)
 }
@@ -14,8 +13,7 @@ compile_SN(filename)
 A cleaned dataframe with individual trials for a given participant.
 }
 \description{
-Post-process Semantic Norming Data for KS Dissertation
-Post-process Semantic Norming from PsychoPy for Exp 2
+Post-process Semantic Norming from PsychoPy for Exp 2 of fʌn.nɔlɛdʒi (KS Dissertation)
 }
 \examples{
 postprocess_FUNK('FK_Pilot2_SN2_testrun_2018_Nov_18_1023.csv')

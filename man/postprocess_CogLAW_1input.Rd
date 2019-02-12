@@ -2,8 +2,7 @@
 % Please edit documentation in R/postprocess_CogLAW_1input.R
 \name{postprocess_CogLAW_1input}
 \alias{postprocess_CogLAW_1input}
-\title{Postprocess CogLAW data - FORCED CHOICE & 1 INPUT ONLY
-Written by KS March 2018 for CS Thesis CogLAW - Cognitive Learning Attributes & Words}
+\title{Postprocess CogLAW data - 1 INPUT ONLY}
 \usage{
 postprocess_CogLAW_1input(filename)
 }
@@ -14,8 +13,7 @@ postprocess_CogLAW_1input(filename)
 a cleaned dataframe with individual trials for a given participant. The overall accuracy for the subject in percent, accuracy for attributes vs. labels, & the accuracy by each target word
 }
 \description{
-Postprocess CogLAW data - FORCED CHOICE & 1 INPUT ONLY
-Written by KS March 2018 for CS Thesis CogLAW - Cognitive Learning Attributes & Words
+FORCED CHOICE & 1 INPUT ONLY. Written by KS March 2018 for CS Thesis CogLAW - Cognitive Learning Attributes & Words
 }
 \examples{
 postprocess_CogLAW('CogLAW_002_Order1A.csv')

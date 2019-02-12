@@ -2,8 +2,7 @@
 % Please edit documentation in R/graph_values.R
 \name{graph_values}
 \alias{graph_values}
-\title{Values for graph
-Takes dataframe and calculates descriptive statistics for a given dependent variable that is formatted for KS graphing with ggplot2}
+\title{Compute values for graphing}
 \usage{
 graph_values(df, sort_by, dep_var)
 }
@@ -18,7 +17,6 @@ graph_values(df, sort_by, dep_var)
 datagrame that lists the N/sample size, mean, std deviation, std error
 }
 \description{
-Values for graph
 Takes dataframe and calculates descriptive statistics for a given dependent variable that is formatted for KS graphing with ggplot2
 }
 \examples{

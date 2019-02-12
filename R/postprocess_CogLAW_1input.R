@@ -1,5 +1,6 @@
-#' Postprocess CogLAW data - FORCED CHOICE & 1 INPUT ONLY
-#' Written by KS March 2018 for CS Thesis CogLAW - Cognitive Learning Attributes & Words
+#' Postprocess CogLAW data - 1 INPUT ONLY
+#'
+#' FORCED CHOICE & 1 INPUT ONLY. Written by KS March 2018 for CS Thesis CogLAW - Cognitive Learning Attributes & Words
 #'
 #' @param filename The Psychopy Output File. Should be a string (with '') with a .csv extension.
 #'
