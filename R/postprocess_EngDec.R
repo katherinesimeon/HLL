@@ -20,8 +20,8 @@ postprocess_EngDec <- function(filename,order,group) {
   subject <- as.character(ed$participant[1])
 
   # Get stuff that we need
-  ed <- ed[2:(nrow(ed)-1),]
-  ed <- ed[,1:19]
+  ed <- ed[2:nrow(ed),]
+  ed <- ed[,1:(ncol(ed)-1)]
   ed1 <- ed[,1:4]
   ed2 <- ed[,11:12]
   full <- cbind(ed1,ed2)
