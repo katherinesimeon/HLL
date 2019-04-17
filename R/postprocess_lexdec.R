@@ -1,6 +1,6 @@
 #' postprocess_LexDec
 #'
-#' For Lexical Decision Psychopy Data in fʌn.nɔlɛdʒi Exp. 1.1 (KS Dissertation) and DegPhon (CS Capstone)
+#' For Lexical Decision Psychopy Data in fʌn.nɔlɛdʒi Exp. 1.1 (KS Dissertation) and DegPhon (CM Capstone)
 #'
 #' @param filename The Psychopy Output File. Should be a string (with '') with a .csv extension. Must be written with correct participant label conventions (e.g. DegPhon_Subject #_ED_L#)
 #' @param order The order that was assigned to the participant. This must be numeric.

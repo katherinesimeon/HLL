@@ -14,7 +14,7 @@ postprocess_LexDec(filename, order, group)
 \item{group}{A string that indicates a group distinction (for example, group can be age or whether the participant is a child or adult)}
 }
 \description{
-For Lexical Decision Psychopy Data in fʌn.nɔlɛdʒi Exp. 1.1 (KS Dissertation) and DegPhon (CS Capstone)
+For Lexical Decision Psychopy Data in fʌn.nɔlɛdʒi Exp. 1.1 (KS Dissertation) and DegPhon (CM Capstone)
 }
 \examples{
 postprocess_EngDec(file.choose()) # Use this for ease to pick out the file you want to use

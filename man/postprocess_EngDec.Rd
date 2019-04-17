@@ -17,7 +17,7 @@ postprocess_EngDec(filename, order, group)
 cleaned data for an individual participant to be added to larger data frame and accuracy based on the individual list.
 }
 \description{
-For English Decision/Novel Label Sorting in fʌn.nɔlɛdʒi Exp. 1.1 (KS Dissertation) and DegPhon (CS Capstone)
+For English Decision/Novel Label Sorting in fʌn.nɔlɛdʒi Exp. 1.1 (KS Dissertation) and DegPhon (CM Capstone)
 }
 \examples{
 postprocess_EngDec('DegPhon_001_ED_L1_english_decision_2019_Feb_07_1038.csv')
