@@ -13,7 +13,7 @@
 #' postprocess_EngDec('DegPhon_001_ED_L1_english_decision_2019_Feb_07_1038.csv')
 #' postprocess_EngDec(file.choose()) # Use this for ease to pick out the file you want to use
 postprocess_EngDec <- function(filename,order,group) {
-  data_fr_file <- read.csv(filename)
+  data_fr_file <- read.csv(file.choose())
   ed <- data.frame(data_fr_file)
 
   # Get participant number
@@ -22,12 +22,13 @@ postprocess_EngDec <- function(filename,order,group) {
   # Get stuff that we need
   ed <- ed[2:nrow(ed),]
   ed <- ed[,1:(ncol(ed)-1)]
-  ed1 <- ed[,1:4]
-  ed2 <- ed[,11:12]
-  full <- cbind(ed1,ed2)
+  ed1 <- ed[,1:2]
+  ed2 <- ed[,4:7]
+  ed3 <- ed[,14:15]
+  full <- cbind(ed1,ed2,ed3)
 
   # Re-label columns
-  colnames(full) <- c("audio1","audio2","pic","answer","response","RT-seconds")
+  colnames(full) <- c("audio1","audio2","answer","high","low","diff","response","RT-seconds")
 
   full$audio1 <- gsub(full$audio1, pattern=".wav$", replacement="")
   full$audio1 <- gsub(full$audio1, pattern="^NW_", replacement="")
@@ -44,13 +45,13 @@ postprocess_EngDec <- function(filename,order,group) {
 
   full$Subject <- rep(Subject_Col$X2,nrow(full))
 
-  full <- cbind(full$Subject,full[,1:7])
+  full <- cbind(full$Subject,full[,1:9])
 
   full$List <- rep(Subject_Col$X4,nrow(full))
 
   audio_sep <- data.frame(do.call('rbind', strsplit(as.character(full$audio2),'_',fixed=TRUE)))
 
-  colnames(full) <- c("Subject","audio1","audio2","pic","answer","response","RT-seconds","Accuracy","List")
+  colnames(full) <- c("Subject","audio1","audio2","answer","high","low","diff","response","RT-seconds","Accuracy","List")
 
   ED <- full
 
