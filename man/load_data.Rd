@@ -15,4 +15,5 @@ a data frame with all files concatenated
 \description{
 Imports multiple .csv files into R from a single, specified directory.
 Files should all be .csv format and have the same columns and names.
+Modified to include source file as a column
 }

@@ -1,7 +1,7 @@
 Package: HLL
 Type: Package
 Title: NU Hearing & Language Lab
-Version: 0.2.21
+Version: 0.2.31
 Author: KMS
 Maintainer: The package maintainer <ksimeon@u.northwestern.edu>
 Description: PUBLIC VERSION Package of useful functions used in the Hearing & Language Lab, Dept. of Communication Sciences & Disorders, Northwestern University
